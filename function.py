@@ -1,6 +1,34 @@
+===== DEF FUNCTION  ======
+
+ 
+def calculator(num1, num2,op): 
+   result=0 
+if(op=="+"): 
+ result=num1+num2
+elif (op=="-"): 
+ result= num1 -num2
+elif(op == ""): 
+ result =num1num2
+elif(op=="/"):
+ result=num1/num2
+else:
+ result =0;
+return result;
+
+ch="y"
+while ch =="y":
+
+number1 =int(input("enter a number :"))
+number2 =int(input("enter second numbaer : "))
+op=input("enter the operator :")
+finalResult =calculator(number1,number2,op);
+print(finalResult)
+ch= input ("Do you want to continue (y/n) : ")
+
+
 =====TUPPLE FUCTION FOR SUMATION======
 
-ef add(*tup):
+def add(*tup):
  #   l= len(tup)
   #  sum =0
    # for i in range(0,l):
